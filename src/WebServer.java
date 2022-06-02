@@ -31,18 +31,12 @@ public class WebServer {
                     serv.close();
                     System.exit(0);
                 }
-
-
                 System.out.println(mess);
                 String mess2 = sc.nextLine();
                 out.write(mess2 + "\n");
                 out.flush();
             } catch (Exception e) {
             }
-
-
-
-
         }
 
     }
